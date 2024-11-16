@@ -30,3 +30,13 @@ nav ul li a{
     font-size: 15px;
     text-decoration: none;
 }
+content.table{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+content.td,th{
+    border: 1px solid #755151;
+    text-align: center;
+    padding: 8px;
+}
