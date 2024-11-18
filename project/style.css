@@ -9,6 +9,7 @@ nav{
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
+    backdrop-filter: blur(10px);
 }
 nav h2{
     color: #000000;
@@ -71,3 +72,29 @@ nav ul li a{
 .order-details{
     background-color: #8665f7;
 }
+
+/* Butten add */ 
+a{
+    padding: 5px 10px;
+    border: none;
+    font-size: 10px;
+    color: #fff;
+    border-radius: 7px;
+    letter-spacing: 4px;
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: 1s;
+    transition-property: box-shadow;
+  }
+  
+  a{
+    
+    box-shadow: 0 0 5px rgb(233, 233, 233);
+  }
+  
+  a:hover {
+    box-shadow: 0 0 5px rgb(0, 0, 0),
+                0 0 25px rgb(0, 0, 0),
+                0 0 50px rgb(0, 0, 0),
+                0 0 100px rgb(0, 0, 0);
+  }
