@@ -12,7 +12,7 @@ nav{
     backdrop-filter: blur(10px);
 }
 nav h2{
-    color: #000000;
+    color: #ffffff;
     font-size: 20px;
     text-align  : center;
 }
@@ -26,11 +26,7 @@ nav ul li{
     padding: 0px 5px;
 
 }
-nav ul li a{
-    color: #000000;
-    font-size: 15px;
-    text-decoration: none;
-}
+
 .table-box{
     margin: 50px auto;
 }
